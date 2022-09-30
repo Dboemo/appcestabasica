@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tela_estabelecimentos">
+
+    <LinearLayout
+        android:id="@+id/prin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_marginBaseline="5dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@android:color/white">
+
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="center"
+            android:text="Aplicativo Cesta Básica"
+            android:textColor="#020202"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="center"
+            android:text="Estabelecimentos"
+            android:textColor="#020202"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listaestabelecimentos"
+            android:layout_width="match_parent"
+            android:layout_height="521dp">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/btEstabelecimentoretorna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retornar" />
+
+    </LinearLayout>
+
+</ScrollView>
